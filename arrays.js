@@ -19,3 +19,7 @@ function addElementToEndOfArray(list, item) {
   var latestAddition = [...list, item]
   return latestAddition
 }
+
+function accessElementInArray(array, index) {
+  return array[index]
+}
