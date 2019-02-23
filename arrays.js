@@ -23,3 +23,7 @@ function addElementToEndOfArray(list, item) {
 function accessElementInArray(array, index) {
   return array[index]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+}
