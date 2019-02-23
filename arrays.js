@@ -6,6 +6,7 @@ function addElementToBeginningOfArray(list, item) {
 }
 
 function destructivelyAddElementToBeginningOfArray(list, item) {
+  const list 
   var newAddition = [item, ...list]
   return newAddition
 }
